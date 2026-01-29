@@ -33,6 +33,8 @@
   "productsLead": "We build products that solve real problems.",
   "p1": "OCR workflow for scanned documents: extract, search, summarize, TTS—privacy-forward with local processing.",
   "p2": "Fast, simple local video player. No ads. Deep iOS integration.",
+  "p4": "Software that integrates with local AI to enable distributed processing and private conversations.",
+  "p5": "Make App Store screenshots easy to translate and localize across languages for submission.",
   "p3Title": "Custom development",
   "p3": "Internal tools to App Store products. Swift/SwiftUI based.",
   "buildTitle": "What we build",
@@ -63,6 +65,7 @@
   "tplTitle": "Inquiry template",
   "footerLine1": "A product-focused software studio",
   "footerLine2": "© {year} FiveStar AI. All rights reserved.",
+  "footerContact": "Contact: anton@fivestaraicorp.com",
   "footerNote": "Single-file deployment (index.html)."
 }
 
