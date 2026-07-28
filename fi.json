@@ -63,5 +63,11 @@
   "tplTitle": "Kyselymalli",
   "footerLine1": "Tuote-keskeinen ohjelmistostudio",
   "footerLine2": "© {year} FiveStar AI. Kaikki oikeudet pidätetään.",
-  "footerNote": "Yksittäisen tiedoston käyttöönotto (index.html)."
+  "footerNote": "Yksittäisen tiedoston käyttöönotto (index.html).",
+  "p4": "Ohjelmisto, joka integroituu paikalliseen tekoälyyn mahdollistaen hajautetun laskennan ja yksityiset keskustelut.",
+  "p5": "Tee App Store -kuvakaappausten kääntäminen ja lokalisointi eri kielille helpoksi julkaisua varten.",
+  "p6": "Suostumukseen perustuva lähietäisyyden chat Bluetoothin kautta, valinnaisella paikallisella tekoälykäännöksellä. Ei tiliä, ei keskitettyä chat-palvelinta.",
+  "p7": "Sijaintitietoinen passien hallinta. Tuo esiin oikean kupongin tai jäsenkortin heti, kun saavut perille.",
+  "visitSite": "Vieraile sivustolla",
+  "footerContact": "Yhteystiedot: anton@fivestaraicorp.com"
 }

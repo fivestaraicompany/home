@@ -63,5 +63,11 @@
   "tplTitle": "Spørretemplate",
   "footerLine1": "En produktfokusert programvarestudio",
   "footerLine2": "© {year} FiveStar AI. Alle rettigheter reservert.",
-  "footerNote": "Enkeltfil-utgivelse (index.html)."
+  "footerNote": "Enkeltfil-utgivelse (index.html).",
+  "p4": "Programvare som integreres med lokal AI for å muliggjøre distribuert prosessering og private samtaler.",
+  "p5": "Gjør det enkelt å oversette og lokalisere App Store-skjermbilder på tvers av språk for innsending.",
+  "p6": "Samtykkebasert nærchat via Bluetooth med valgfri lokal AI-oversettelse. Ingen konto, ingen sentral chatserver.",
+  "p7": "Stedsbevisst pass-behandler. Viser riktig kupong eller medlemskort i det øyeblikket du ankommer.",
+  "visitSite": "Besøk nettstedet",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

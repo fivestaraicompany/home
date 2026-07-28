@@ -63,5 +63,11 @@
   "tplTitle": "Frågemall",
   "footerLine1": "En produktfokuserad mjukvarustudio",
   "footerLine2": "© {year} FiveStar AI. Alla rättigheter förbehållna.",
-  "footerNote": "Enfilsläppning (index.html)."
+  "footerNote": "Enfilsläppning (index.html).",
+  "p4": "Programvara som integreras med lokal AI för att möjliggöra distribuerad bearbetning och privata konversationer.",
+  "p5": "Gör det enkelt att översätta och lokalisera App Store-skärmdumpar på olika språk inför inskickning.",
+  "p6": "Samtyckesbaserad närchatt via Bluetooth med valfri lokal AI-översättning. Inget konto, ingen central chattserver.",
+  "p7": "Platsmedveten passhanterare. Visar rätt kupong eller medlemskort i det ögonblick du anländer.",
+  "visitSite": "Besök webbplatsen",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

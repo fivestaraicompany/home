@@ -63,5 +63,11 @@
   "tplTitle": "詢問範本",
   "footerLine1": "以產品為導向的軟體工作室",
   "footerLine2": "© {year} FiveStar AI. 保留所有權利。",
-  "footerNote": "單檔案部署 (index.html)."
+  "footerNote": "單檔案部署 (index.html).",
+  "p4": "與本地 AI 整合，以實現分佈式處理和私密對話的軟體。",
+  "p5": "讓 App Store 螢幕截圖的翻譯和多語言在地化變得簡單，方便提交。",
+  "p6": "基於同意的 Bluetooth 近距離聊天，提供可選的本地 AI 翻譯。無需帳號，無需中央聊天伺服器。",
+  "p7": "具備位置感知功能的 Pass 管理器。在您到達的瞬間，自動顯示正確的優惠券或會員卡。",
+  "visitSite": "訪問網站",
+  "footerContact": "聯絡方式：anton@fivestaraicorp.com"
 }

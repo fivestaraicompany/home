@@ -63,5 +63,11 @@
   "tplTitle": "Plantilla de consulta",
   "footerLine1": "Un estudi de software centrat en productes.",
   "footerLine2": "© {year} FiveStar AI. Tot drets reservats.",
-  "footerNote": "Desplegament en un sol fitxer (index.html)."
+  "footerNote": "Desplegament en un sol fitxer (index.html).",
+  "p4": "Programari que s'integra amb IA local per permetre el processament distribuït i converses privades.",
+  "p5": "Facilita la traducció i la localització de les captures de pantalla de l'App Store en diversos idiomes per al seu enviament.",
+  "p6": "Xat proper basat en el consentiment a través de Bluetooth amb traducció per IA local opcional. Sense compte ni servidor de xat central.",
+  "p7": "Gestor de passes amb detecció de ubicació. Mostra el cupon o la targeta de membre adequada en el moment que arribeu.",
+  "visitSite": "Visita el lloc",
+  "footerContact": "Contacte: anton@fivestaraicorp.com"
 }

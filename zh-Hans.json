@@ -63,5 +63,11 @@
   "tplTitle": "咨询模板",
   "footerLine1": "以产品为导向的软件工作室",
   "footerLine2": "© {year} FiveStar AI. 保留所有权利。",
-  "footerNote": "单文件部署（index.html）。"
+  "footerNote": "单文件部署（index.html）。",
+  "p4": "与本地 AI 集成，以实现分布式处理和私密对话的软件。",
+  "p5": "让 App Store 屏幕截图的多语言翻译和本地化提交变得简单。",
+  "p6": "基于同意的 Bluetooth 近距离聊天，提供可选的本地 AI 翻译。无需账号，无需中央聊天服务器。",
+  "p7": "位置感知凭证管理器。在您到达的瞬间显示正确的优惠券或会员卡。",
+  "visitSite": "访问网站",
+  "footerContact": "联系方式：anton@fivestaraicorp.com"
 }

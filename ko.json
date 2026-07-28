@@ -63,5 +63,11 @@
   "tplTitle": "문의 템플릿",
   "footerLine1": "제품 중심의 소프트웨어 스튜디오",
   "footerLine2": "© {year} FiveStar AI. 모든 권리 보유.",
-  "footerNote": "단일 파일 배포 (index.html)."
+  "footerNote": "단일 파일 배포 (index.html).",
+  "p4": "로컬 AI와 통합되어 분산 처리 및 비공개 대화를 가능하게 하는 소프트웨어입니다.",
+  "p5": "제출을 위해 App Store 스크린샷의 다국어 번역 및 현지화를 쉽게 만들어 줍니다.",
+  "p6": "Bluetooth를 통한 동의 기반 근거리 채팅으로, 선택 사항인 로컬 AI 번역을 제공합니다. 계정이나 중앙 채팅 서버가 필요 없습니다.",
+  "p7": "위치 인식 패스 매니저입니다. 도착하는 순간 적절한 쿠폰이나 멤버십 카드를 표시합니다.",
+  "visitSite": "사이트 방문하기",
+  "footerContact": "문의: anton@fivestaraicorp.com"
 }

@@ -63,5 +63,11 @@
   "tplTitle": "Predložak upita",
   "footerLine1": "Studio softvera usmjeren na proizvod",
   "footerLine2": "© {year} FiveStar AI. Sva prava pridržana.",
-  "footerNote": "Implementacija jedne datoteke (index.html)."
+  "footerNote": "Implementacija jedne datoteke (index.html).",
+  "p4": "Softver koji se integrira s lokalnim AI-jem kako bi omogućio distribuirano procesiranje i privatne razgovore.",
+  "p5": "Olakšajte prijevod i lokalizaciju screenshotova za App Store na različite jezike za slanje.",
+  "p6": "Chat u blizini temeljen na pristanku putem Bluetootha s opcionalnim lokalnim AI prijevodom. Bez računa, bez centralnog chat servera.",
+  "p7": "Upravitelj prolaznicama koji prepoznaje lokaciju. Prikazuje odgovarajući kupon ili člančevnu karticu u trenutku vašeg dolaska.",
+  "visitSite": "Posjetite stranicu",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

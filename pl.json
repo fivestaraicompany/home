@@ -63,5 +63,11 @@
   "tplTitle": "Szablon zapytania",
   "footerLine1": "Studio oprogramowania skupione na produkcie",
   "footerLine2": "© {year} FiveStar AI. Wszystkie prawa zastrzeżone.",
-  "footerNote": "Wdrożenie w pojedynczym pliku (index.html)."
+  "footerNote": "Wdrożenie w pojedynczym pliku (index.html).",
+  "p4": "Oprogramowanie integrujące się z lokalnym AI, aby umożliwić rozproszone przetwarzanie i prywatne rozmowy.",
+  "p5": "Ułatwia tłumaczenie i lokalizację zrzutów ekranu do Apple App Store w wielu językach na potrzeby zgłoszenia.",
+  "p6": "Czat w pobliżu oparty na zgodzie przez Bluetooth z opcjonalnym tłumaczeniem lokalnego AI. Bez konta, bez centralnego serwera czatu.",
+  "p7": "Menedżer przepustek świadomy lokalizacji. Wyświetla odpowiedni kupon lub kartę członkowską w momencie przybycia.",
+  "visitSite": "Odwiedź stronę",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

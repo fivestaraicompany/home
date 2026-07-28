@@ -63,5 +63,11 @@
   "tplTitle": "Șablon pentru întrebare",
   "footerLine1": "O studio de software centrat pe produs",
   "footerLine2": "© {year} FiveStar AI. Toate drepturile rezervate.",
-  "footerNote": "Implementare într-un singur fișier (index.html)."
+  "footerNote": "Implementare într-un singur fișier (index.html).",
+  "p4": "Software care se integrează cu AI local pentru a permite procesarea distribuită și conversațiile private.",
+  "p5": "Faceți capturile de ecran pentru App Store ușor de tradus și localizat în mai multe limbi pentru trimitere.",
+  "p6": "Chat de proximitate bazat pe consimțământ prin Bluetooth, cu traducere AI locală opțională. Fără cont, fără server de chat central.",
+  "p7": "Manager de pass-uri cu recunoaștere a locației. Afișează cuponul sau cardul de membru potrivit în momentul în care ajungeți.",
+  "visitSite": "Vizitați site-ul",
+  "footerContact": "Contact: anton@fivestaraicorp.com"
 }

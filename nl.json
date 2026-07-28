@@ -63,5 +63,11 @@
   "tplTitle": "Verzoekssjabloon",
   "footerLine1": "Een productgerichte softwarestudio",
   "footerLine2": "© {year} FiveStar AI. Alle rechten voorbehouden.",
-  "footerNote": "Implementatie met één bestand (index.html)."
+  "footerNote": "Implementatie met één bestand (index.html).",
+  "p4": "Software die integreert met lokale AI om gedistribueerde verwerking en privéconversaties mogelijk te maken.",
+  "p5": "Maak het vertalen en lokaliseren van App Store-screenshots in verschillende talen eenvoudig voor indiening.",
+  "p6": "Toestemmingsgebaseerde nabijheidschat via Bluetooth met optionele lokale AI-vertaling. Geen account, geen centrale chatserver.",
+  "p7": "Locatiebewuste pasbeheerder. Toont de juiste coupon of lidmaatschapskaart op het moment dat u arriveert.",
+  "visitSite": "Bezoek website",
+  "footerContact": "Contact: anton@fivestaraicorp.com"
 }

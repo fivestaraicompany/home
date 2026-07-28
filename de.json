@@ -63,5 +63,11 @@
   "tplTitle": "Anfrage-Vorlage",
   "footerLine1": "Ein produktorientiertes Softwarestudio",
   "footerLine2": "© {year} FiveStar AI. Alle Rechte vorbehalten.",
-  "footerNote": "Einzeldatei-Bereitstellung (index.html)."
+  "footerNote": "Einzeldatei-Bereitstellung (index.html).",
+  "p4": "Software, die sich mit lokaler KI integriert, um verteilte Verarbeitung und private Gespräche zu ermöglichen.",
+  "p5": "Vereinfachen Sie die Übersetzung und Lokalisierung von App Store-Screenshots für die Einreichung in verschiedenen Sprachen.",
+  "p6": "Einwilligungsbasierter Chat in der Nähe über Bluetooth mit optionaler lokaler KI-Übersetzung. Kein Konto, kein zentraler Chat-Server.",
+  "p7": "Standortbezogener Pass-Manager. Zeigt den richtigen Gutschein oder die Mitgliedskarte genau in dem Moment an, in dem Sie ankommen.",
+  "visitSite": "Website besuchen",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

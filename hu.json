@@ -63,5 +63,11 @@
   "tplTitle": "Kérdési sablon",
   "footerLine1": "Termékcentrikus szoftverstúdió",
   "footerLine2": "© {year} FiveStar AI. Minden jog fenntartva.",
-  "footerNote": "Egyfájles telepítés (index.html)."
+  "footerNote": "Egyfájles telepítés (index.html).",
+  "p4": "Szoftver, amely lokális AI-val integrálódik az elosztott feldolgozás és a privát beszélgetések lehetővé tételéhez.",
+  "p5": "Tegye egyszerűbbé az App Store képernyőképeinek fordítását és lokalizálását a különböző nyelvekre a beküldés előtt.",
+  "p6": "Bluetooth alapú, hozzájárzás alapú közelségi csevegés opcionális lokális AI fordítással. Nincs szükség fiókra vagy központi csevegésszerverre.",
+  "p7": "Lokációt érzékelő pass-kezelő. Pontosan akkor jeleníti meg a megfelelő kupont vagy tagságkártyát, amikor megérkezik.",
+  "visitSite": "Oldal megtekintése",
+  "footerContact": "Kapcsolat: anton@fivestaraicorp.com"
 }

@@ -63,5 +63,11 @@
   "tplTitle": "Sorgu Şablonu",
   "footerLine1": "Ürün odaklı yazılım stüdyosu",
   "footerLine2": "© {year} FiveStar AI. Tüm hakları saklıdır.",
-  "footerNote": "Tek dosya dağıtım (index.html)."
+  "footerNote": "Tek dosya dağıtım (index.html).",
+  "p4": "Yerel AI ile entegre olarak dağıtık işlemeye ve gizli sohbetlere olanak tanıyan yazılım.",
+  "p5": "App Store ekran görüntülerini, gönderim için farklı dillere çevirmeyi ve yerelleştirmeyi kolaylaştırın.",
+  "p6": "Bluetooth üzerinden rıza tabanlı yakın mesafe sohbeti; isteğe bağlı yerel AI çevirisi ile birlikte. Hesap yok, merkezi sohbet sunucusu yok.",
+  "p7": "Konum duyarlı geçiş yöneticisi. Vardığınız anda doğru kuponu veya üyelik kartını karşınıza çıkarır.",
+  "visitSite": "Siteyi ziyaret et",
+  "footerContact": "İletişim: anton@fivestaraicorp.com"
 }

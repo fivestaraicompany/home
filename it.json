@@ -63,5 +63,11 @@
   "tplTitle": "Modello di richiesta",
   "footerLine1": "Uno studio software focalizzato sui prodotti",
   "footerLine2": "© {year} FiveStar AI. Tutti i diritti riservati.",
-  "footerNote": "Distribuzione a singolo file (index.html)."
+  "footerNote": "Distribuzione a singolo file (index.html).",
+  "p4": "Software che si integra con l'IA locale per consentire l'elaborazione distribuita e conversazioni private.",
+  "p5": "Rendi facile la traduzione e la localizzazione degli screenshot dell'App Store in diverse lingue per l'invio.",
+  "p6": "Chat di prossimità basata sul consenso tramite Bluetooth con traduzione IA locale opzionale. Nessun account, nessun server di chat centrale.",
+  "p7": "Gestore di pass basato sulla posizione. Mostra il coupon o la tessera associativa corretta nel momento in cui arrivi.",
+  "visitSite": "Visita il sito",
+  "footerContact": "Contatto: anton@fivestaraicorp.com"
 }

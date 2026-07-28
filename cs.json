@@ -63,5 +63,11 @@
   "tplTitle": "Šablona dotazu",
   "footerLine1": "Studio zaměřené na produkty",
   "footerLine2": "© {year} FiveStar AI. Všechna práva vyhrazena.",
-  "footerNote": "Nasazení jednoho souboru (index.html)."
+  "footerNote": "Nasazení jednoho souboru (index.html).",
+  "p4": "Software, který se integruje s lokální AI pro distribuované zpracování a soukromé konverzace.",
+  "p5": "Usnadněte překlad a lokalizaci screenshotů pro App Store do různých jazyků pro následné odeslání.",
+  "p6": "Chat v blízkosti založený na souhlasu přes Bluetooth s volitelným překladem pomocí lokální AI. Bez účtu, bez centrálního chatovacího serveru.",
+  "p7": "Správce průkazů s detekcí polohy. Zobrazí správný kupón nebo členskou kartu v okamžiku vašeho příchodu.",
+  "visitSite": "Navštívit web",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }

@@ -63,5 +63,11 @@
   "tplTitle": "Mẫu yêu cầu",
   "footerLine1": "Một studio phần mềm tập trung vào sản phẩm.",
   "footerLine2": "© {year} FiveStar AI. Tất cả quyền được bảo lưu.",
-  "footerNote": "Triển khai bằng một tập tin (index.html)."
+  "footerNote": "Triển khai bằng một tập tin (index.html).",
+  "p4": "Phần mềm tích hợp với AI cục bộ để cho phép xử lý phân tán và các cuộc hội thoại riêng tư.",
+  "p5": "Giúp việc dịch và bản địa hóa ảnh chụp màn hình App Store sang nhiều ngôn ngữ trở nên dễ dàng hơn để gửi lên.",
+  "p6": "Chat gần dựa trên sự đồng ý qua Bluetooth với tùy chọn dịch bằng AI cục bộ. Không cần tài khoản, không cần máy chủ chat trung tâm.",
+  "p7": "Trình quản lý thẻ nhận diện vị trí. Hiển thị đúng phiếu giảm giá hoặc thẻ thành viên ngay khi bạn đến nơi.",
+  "visitSite": "Truy cập trang web",
+  "footerContact": "Liên hệ: anton@fivestaraicorp.com"
 }

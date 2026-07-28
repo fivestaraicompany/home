@@ -63,5 +63,11 @@
   "tplTitle": "Template Permintaan",
   "footerLine1": "Studio perangkat lunak berorientasi produk",
   "footerLine2": "© {year} FiveStar AI. Seluruh hak cipta dilindungi.",
-  "footerNote": "Penyebaran file tunggal (index.html)."
+  "footerNote": "Penyebaran file tunggal (index.html).",
+  "p4": "Perangkat lunak yang terintegrasi dengan AI lokal untuk memungkinkan pemrosesan terdistribusi dan percakapan pribadi.",
+  "p5": "Membuat tangkapan layar App Store mudah diterjemahkan dan dilokalisasi ke berbagai bahasa untuk pengiriman.",
+  "p6": "Obrolan terdekat berbasis persetujuan melalui Bluetooth dengan opsi terjemahan AI lokal. Tanpa akun, tanpa server obrolan pusat.",
+  "p7": "Pengelola pass berbasis lokasi. Menampilkan kupon atau kartu anggota yang tepat saat Anda tiba.",
+  "visitSite": "Kunjungi situs",
+  "footerContact": "Kontak: anton@fivestaraicorp.com"
 }

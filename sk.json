@@ -63,5 +63,11 @@
   "tplTitle": "Šablóna pre žiadosť",
   "footerLine1": "Štúdio softvéru sústredené na produkty",
   "footerLine2": "© {year} FiveStar AI. Všetky práva vyhradené.",
-  "footerNote": "Nasadenie v jednom súbore (index.html)."
+  "footerNote": "Nasadenie v jednom súbore (index.html).",
+  "p4": "Softvér, ktorý sa integruje s lokálnou AI, aby umožnil distribuované spracovanie a súkromné konverzácie.",
+  "p5": "Uľahčite preklad a lokalizáciu screenshotov pre App Store do rôznych jazykov pred ich odoslaním.",
+  "p6": "Chat v blízkosti založený na súhlase cez Bluetooth s voliteľným prekladom pomocou lokálnej AI. Bez účtu, bez centrálneho chatovacieho servera.",
+  "p7": "Správca vstupeniek s detekciou polohy. Zobrazí správny kupón alebo členskú kartu v momente, keď prídete.",
+  "visitSite": "Navštíviť stránku",
+  "footerContact": "Kontakt: anton@fivestaraicorp.com"
 }
