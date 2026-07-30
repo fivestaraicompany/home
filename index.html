@@ -3,31 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#ffffff" />
-  <title>FiveStar AI — A product-focused software studio</title>
-  <meta name="description" content="FiveStar AI builds iOS utilities and workflow tools. We ship what people need—fast and reliably." />
+  <meta name="theme-color" content="#f7f8fb" />
+  <title>FiveStar AI — An AI-native software company</title>
+  <meta name="description" content="FiveStar AI builds mobile, web, desktop, backend, and AI software with LLM-powered engineering across programming languages and technology stacks." />
   <meta property="og:title" content="FiveStar AI" />
-  <meta property="og:description" content="A product-focused software studio" />
+  <meta property="og:description" content="An AI-native software company building every kind of software with LLM-powered engineering." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fivestaraicompany.github.io/home/" />
+  <meta property="og:image" content="https://fivestaraicompany.github.io/home/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FiveStar AI" />
+  <meta name="twitter:description" content="An AI-native software company building every kind of software with LLM-powered engineering." />
+  <meta name="twitter:image" content="https://fivestaraicompany.github.io/home/og.png" />
   <link rel="icon" type="image/webp" href="fivestar-ai-logo.webp" />
 
   <style>
     :root{
-      --bg:#ffffff;
-      --bg2:#f6f8fc;
+      --bg:#f7f8fb;
+      --bg2:#eef1f7;
       --card:#ffffff;
       --card2:#f8fafc;
       --text:#0f172a;
       --muted:#475569;
-      --muted2:#64748b;
-      --line:#e4e8f0;
-      --accent:#6d4aff;
-      --accent2:#0ea5e9;
+      --muted2:#6b7280;
+      --line:#e1e6ef;
+      --accent:#625bf6;
+      --accent2:#0ea5a4;
       --ok:#16a34a;
-      --shadow: 0 18px 50px rgba(15,23,42,.10);
-      --radius: 18px;
-      --radius2: 24px;
-      --max: 1120px;
+      --shadow:0 28px 80px rgba(15,23,42,.12);
+      --radius:22px;
+      --radius2:28px;
+      --max:1180px;
       --font: ui-sans-serif, system-ui, -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", Segoe UI, Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
     }
     *{box-sizing:border-box}
@@ -36,36 +44,31 @@
       margin:0;
       font-family:var(--font);
       color:var(--text);
-      background:
-        radial-gradient(1100px 600px at 20% 10%, rgba(109,74,255,.10), transparent 60%),
-        radial-gradient(900px 520px at 80% 20%, rgba(14,165,233,.10), transparent 60%),
-        radial-gradient(900px 520px at 50% 120%, rgba(22,163,74,.06), transparent 65%),
-        linear-gradient(180deg, var(--bg), var(--bg2));
-      background-attachment: fixed;
+      background:var(--bg);
       overflow-x:hidden;
     }
     a{color:inherit;text-decoration:none}
     .wrap{max-width:var(--max); margin:0 auto; padding:0 20px}
     .topbar{
       position:sticky; top:0; z-index:20;
-      backdrop-filter: blur(14px);
-      background: rgba(255,255,255,.82);
-      border-bottom:1px solid var(--line);
+      backdrop-filter:blur(18px);
+      background:rgba(247,248,251,.86);
+      border-bottom:1px solid rgba(15,23,42,.07);
     }
     .nav{
       display:flex; align-items:center; justify-content:space-between;
-      height:64px;
+      height:72px;
     }
     .brand{
       display:flex; align-items:center; gap:12px;
-      font-weight:750; letter-spacing:-.3px;
+      font-weight:800; letter-spacing:-.35px;
     }
     .logo{
       display:block;
       width:42px; height:42px; border-radius:12px;
       object-fit:cover;
       background:#fff;
-      box-shadow: 0 8px 22px rgba(15,23,42,.14);
+      box-shadow:0 8px 24px rgba(15,23,42,.12);
       border:1px solid rgba(15,23,42,.06);
     }
     .navlinks{
@@ -77,14 +80,14 @@
     .navlinks a:hover{background:rgba(15,23,42,.05); color:var(--text)}
     .btn{
       display:inline-flex; align-items:center; justify-content:center;
-      padding:10px 14px;
-      border-radius:14px;
+      padding:11px 16px;
+      border-radius:999px;
       border:1px solid var(--line);
       background:#fff;
       color:var(--text);
       font-weight:700;
       gap:8px;
-      box-shadow: 0 6px 18px rgba(15,23,42,.06);
+      box-shadow:0 6px 18px rgba(15,23,42,.05);
       cursor:pointer;
       user-select:none;
     }
@@ -102,8 +105,8 @@
     }
     .langBtn{
       display:inline-flex; align-items:center; justify-content:center;
-      padding:10px 14px;
-      border-radius:14px;
+      padding:11px 16px;
+      border-radius:999px;
       border:1px solid var(--line);
       background:#fff;
       color:var(--text);
@@ -155,48 +158,73 @@
     }
     .pill{
       display:inline-flex; align-items:center; gap:8px;
-      padding:8px 12px;
+      padding:8px 13px;
       border-radius:999px;
       border:1px solid var(--line);
       background:#fff;
       color:var(--muted);
       font-weight:650;
       letter-spacing:-.2px;
-      box-shadow: 0 4px 14px rgba(15,23,42,.05);
+      box-shadow:0 4px 14px rgba(15,23,42,.04);
     }
     .dot{width:8px;height:8px;border-radius:999px;background:var(--ok); box-shadow:0 0 0 6px rgba(22,163,74,.14)}
     .hero{
-      padding:54px 0 34px;
+      padding:42px 0 28px;
     }
     .heroGrid{
       display:grid;
-      grid-template-columns: 1.15fr .85fr;
-      gap:26px;
+      grid-template-columns:1.15fr .85fr;
+      gap:30px;
       align-items:stretch;
+      position:relative;
+      overflow:hidden;
+      padding:54px;
+      border-radius:36px;
+      color:#fff;
+      background:
+        radial-gradient(700px 420px at 15% 0%, rgba(98,91,246,.48), transparent 58%),
+        radial-gradient(520px 360px at 100% 90%, rgba(14,165,164,.26), transparent 60%),
+        linear-gradient(135deg, #0b1020, #171a32 58%, #151c2f);
+      box-shadow:0 34px 100px rgba(15,23,42,.24);
+      isolation:isolate;
+    }
+    .heroGrid:before{
+      content:"";
+      position:absolute;
+      inset:-40% auto auto 42%;
+      width:420px;
+      height:420px;
+      border-radius:999px;
+      background:rgba(255,255,255,.045);
+      filter:blur(1px);
+      z-index:-1;
     }
     /* grid items default to min-width:auto, which blows the layout out on narrow screens */
     .heroGrid > *, .cards > *, .split > *, .metrics > *{min-width:0}
     .h1{
-      font-size: clamp(30px, 4vw, 48px);
-      line-height:1.08;
-      letter-spacing:-1px;
-      margin:14px 0 12px;
+      font-size:clamp(40px, 5.2vw, 68px);
+      line-height:1.03;
+      letter-spacing:-2.4px;
+      margin:20px 0 20px;
+      max-width:12ch;
+      text-wrap:balance;
     }
     .sub{
       font-size: clamp(14px, 1.5vw, 18px);
-      color:var(--muted);
-      line-height:1.55;
-      margin:0 0 22px;
-      max-width: 56ch;
+      color:#cbd5e1;
+      line-height:1.7;
+      margin:0 0 26px;
+      max-width:58ch;
     }
     .heroCard{
       border-radius:var(--radius2);
-      background: linear-gradient(180deg, #ffffff, #fbfcfe);
-      border:1px solid var(--line);
-      box-shadow: var(--shadow);
+      background:rgba(255,255,255,.075);
+      border:1px solid rgba(255,255,255,.13);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.07);
+      backdrop-filter:blur(14px);
       overflow:hidden;
     }
-    .heroCardInner{padding:18px}
+    .heroCardInner{padding:24px}
     .metrics{
       display:grid;
       grid-template-columns: repeat(2, 1fr);
@@ -206,60 +234,81 @@
     .metric{
       padding:14px;
       border-radius:16px;
-      background:#f6f8fc;
-      border:1px solid var(--line);
+      background:rgba(255,255,255,.07);
+      border:1px solid rgba(255,255,255,.1);
     }
-    .metric b{display:block;font-size:16px}
-    .metric span{display:block;color:var(--muted2); margin-top:6px; font-size:13px; line-height:1.35}
+    .metric b{display:block;font-size:15px;color:#fff}
+    .metric span{display:block;color:#bac5d8; margin-top:7px; font-size:13px; line-height:1.45}
     .badgeRow{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px}
     .badge{
       padding:8px 10px;
       border-radius:999px;
       border:1px solid var(--line);
-      background:#fff;
-      color:var(--muted);
+      background:rgba(255,255,255,.07);
+      border-color:rgba(255,255,255,.12);
+      color:#d8e0ec;
       font-size:13px;
       font-weight:650;
     }
     .section{
-      padding:34px 0;
+      padding:64px 0;
     }
     .section h2{
-      font-size: clamp(20px, 2.3vw, 28px);
-      margin:0 0 10px;
-      letter-spacing:-.6px;
+      font-size:clamp(28px, 3vw, 40px);
+      margin:0 0 14px;
+      letter-spacing:-1.2px;
     }
     .section p.lead{
-      margin:0 0 18px;
+      margin:0 0 28px;
       color:var(--muted);
-      line-height:1.6;
+      line-height:1.75;
       max-width:70ch;
+      font-size:16px;
     }
     .cards{
       display:grid;
       grid-template-columns: repeat(3, 1fr);
-      gap:14px;
+      gap:18px;
     }
     .card{
       border-radius:var(--radius);
-      background:#fff;
-      border:1px solid var(--line);
-      padding:16px;
-      box-shadow: 0 10px 30px rgba(15,23,42,.06);
-      min-height: 160px;
+      background:rgba(255,255,255,.86);
+      border:1px solid rgba(15,23,42,.08);
+      padding:24px;
+      box-shadow:0 14px 38px rgba(15,23,42,.055);
+      min-height:190px;
     }
     .card h3{
-      margin:2px 0 10px;
-      font-size:16px;
-      letter-spacing:-.3px;
+      margin:4px 0 12px;
+      font-size:18px;
+      letter-spacing:-.45px;
     }
-    .card p{margin:0;color:var(--muted); line-height:1.55; font-size:14px}
+    .card p{margin:0;color:var(--muted); line-height:1.65; font-size:14px}
+    .productHead{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      margin-bottom:14px;
+    }
+    .productHead > div{min-width:0}
+    .productHead h3{margin:8px 0 0}
+    .appIcon{
+      display:block;
+      width:72px;
+      height:72px;
+      flex:0 0 72px;
+      border-radius:18px;
+      object-fit:cover;
+      background:#fff;
+      border:1px solid rgba(15,23,42,.08);
+      box-shadow:0 12px 28px rgba(15,23,42,.16);
+    }
     .tag{
       display:inline-flex; align-items:center; gap:8px;
       padding:6px 10px;
       border-radius:999px;
       border:1px solid var(--line);
-      background:#f4f6fb;
+      background:#f1f3f8;
       color:var(--muted);
       font-size:12px;
       font-weight:700;
@@ -268,12 +317,13 @@
     a.card{
       display:flex;
       flex-direction:column;
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      min-height:270px;
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
     }
     a.card:hover{
-      transform: translateY(-3px);
-      border-color:#c9d2e6;
-      box-shadow: 0 18px 40px rgba(15,23,42,.12);
+      transform:translateY(-5px);
+      border-color:rgba(98,91,246,.28);
+      box-shadow:0 24px 55px rgba(15,23,42,.12);
     }
     a.card:focus-visible{
       outline:2px solid var(--accent);
@@ -292,8 +342,8 @@
     .split{
       display:grid;
       grid-template-columns: 1fr 1fr;
-      gap:14px;
-      margin-top:14px;
+      gap:18px;
+      margin-top:18px;
     }
     .list{
       margin:10px 0 0;
@@ -316,12 +366,55 @@
       box-shadow:0 0 0 5px rgba(109,74,255,.10);
     }
     .cta{
-      margin:20px 0 0;
+      margin:24px 0 0;
       display:flex; flex-wrap:wrap; gap:10px;
       align-items:center;
     }
+    .contactPanel{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:36px;
+      padding:42px;
+      border-radius:30px;
+      color:#fff;
+      background:
+        radial-gradient(420px 220px at 5% 0%, rgba(98,91,246,.48), transparent 65%),
+        linear-gradient(135deg, #11162a, #1c2438);
+      box-shadow:0 26px 70px rgba(15,23,42,.18);
+    }
+    .contactPanel h2{color:#fff}
+    .contactPanel .lead{margin-bottom:0;color:#cbd5e1;max-width:62ch}
+    .contactPanel .tag{
+      margin-bottom:16px;
+      color:#dce4f1;
+      background:rgba(255,255,255,.08);
+      border-color:rgba(255,255,255,.12);
+    }
+    .contactActions{
+      display:flex;
+      min-width:max-content;
+      flex-direction:column;
+      align-items:flex-end;
+      gap:13px;
+    }
+    .contactActions .btn{padding:13px 20px}
+    .contactEmail{font-size:13px;color:#aebbd0}
+    .hero .pill{
+      color:#dce4f1;
+      background:rgba(255,255,255,.07);
+      border-color:rgba(255,255,255,.13);
+      box-shadow:none;
+    }
+    .hero .btn:not(.primary){
+      color:#f8fafc;
+      background:rgba(255,255,255,.07);
+      border-color:rgba(255,255,255,.13);
+      box-shadow:none;
+    }
+    .hero .btn:not(.primary):hover{background:rgba(255,255,255,.12)}
     footer{
-      padding:34px 0 44px;
+      padding:38px 0 46px;
       border-top:1px solid var(--line);
       color:var(--muted2);
       font-size:13px;
@@ -347,9 +440,11 @@
     .menuBtn{display:none}
     .mobileMenu{display:none}
     @media (max-width: 920px){
-      .heroGrid{grid-template-columns: 1fr; }
+      .heroGrid{grid-template-columns:1fr;padding:38px}
       .cards{grid-template-columns: 1fr; }
       .split{grid-template-columns: 1fr;}
+      .contactPanel{align-items:flex-start;flex-direction:column;padding:34px}
+      .contactActions{align-items:flex-start}
       .navlinks{display:none}
       .menuBtn{display:inline-flex}
       .mobileMenu{
@@ -384,16 +479,19 @@
     @media (max-width: 560px){
       .brand > .logo{width:38px; height:38px}
       .langBtn{min-width:auto; padding:10px 12px}
+      .hero{padding-top:22px}
+      .heroGrid{padding:28px 22px;border-radius:26px}
+      .h1{font-size:clamp(38px, 13vw, 54px);letter-spacing:-1.8px}
+      .metrics{grid-template-columns:1fr}
+      .section{padding:48px 0}
+      .card{padding:21px}
+      .contactPanel{padding:28px 22px;border-radius:24px}
+      .contactActions{min-width:0;width:100%}
+      .contactActions .btn{width:100%}
     }
 
-    /* subtle animation */
     @media (prefers-reduced-motion: no-preference){
-      .logo, .heroCard, .card{transform: translateZ(0)}
-      .heroCard{animation: floaty 10s ease-in-out infinite}
-      @keyframes floaty{
-        0%,100%{transform:translateY(0)}
-        50%{transform:translateY(-8px)}
-      }
+      .logo, .heroCard, .card{transform:translateZ(0)}
     }
   </style>
   <meta name="google-site-verification" content="xLJoOE8Fk5cvtB3s3aXzMC2f-IgTLgybvE1jwYcgX_c" />
@@ -446,10 +544,10 @@
           <div>
             <span class="pill"><span class="dot"></span><span data-i18n="status">Open for new projects</span></span>
             <h1 class="h1" data-i18n="heroTitle">
-              A product-focused<br/>software studio
+              An AI-native<br/>software company
             </h1>
             <p class="sub" data-i18n="heroSub">
-              FiveStar AI builds iOS utilities and workflow tools. We ship what people need—fast and reliably.
+              FiveStar AI designs and builds every kind of software—mobile, web, desktop, backend, and AI—using LLMs to work across programming languages and technology stacks.
             </p>
 
             <div class="cta">
@@ -459,10 +557,10 @@
             </div>
 
             <div class="badgeRow" aria-label="Keywords">
-              <span class="badge">iOS · Swift · SwiftUI</span>
-              <span class="badge">OCR · Documents</span>
-              <span class="badge">Local processing</span>
-              <span class="badge">App Store ready</span>
+              <span class="badge">AI · LLM · Agents</span>
+              <span class="badge">Mobile · Web · Desktop</span>
+              <span class="badge">Backend · Cloud · Automation</span>
+              <span class="badge">Any language · Best-fit stack</span>
             </div>
           </div>
 
@@ -470,33 +568,33 @@
             <div class="heroCardInner">
               <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; align-items:flex-start;">
                 <div>
-                  <div class="tag" style="margin-bottom:10px;">FiveStar AI / Studio</div>
+                  <div class="tag" style="margin-bottom:10px;">FiveStar AI / Company</div>
                   <div style="font-weight:800; font-size:16px; letter-spacing:-.2px;" data-i18n="rightTitle">Core strengths</div>
                   <div class="small" style="margin-top:6px;" data-i18n="rightSub">
-                    Prototyping → Product → Maintenance
+                    Discovery → Development → Operations
                   </div>
                 </div>
                 <div class="pill" title="Quality">
-                  ✨ <span data-i18n="rightPill">Quality × Speed</span>
+                  ✨ <span data-i18n="rightPill">AI × Engineering</span>
                 </div>
               </div>
 
               <div class="metrics">
                 <div class="metric">
-                  <b data-i18n="m1Title">Product-first</b>
-                  <span data-i18n="m1Sub">MVP → Iterate → Improve</span>
+                  <b data-i18n="m1Title">LLM-native</b>
+                  <span data-i18n="m1Sub">AI throughout design, coding &amp; QA</span>
                 </div>
                 <div class="metric">
-                  <b data-i18n="m2Title">Privacy-first</b>
-                  <span data-i18n="m2Sub">Local processing, minimal data</span>
+                  <b data-i18n="m2Title">Cross-stack</b>
+                  <span data-i18n="m2Sub">Any language, platform or framework</span>
                 </div>
                 <div class="metric">
-                  <b data-i18n="m3Title">Performance</b>
-                  <span data-i18n="m3Sub">Optimized for large files & media</span>
+                  <b data-i18n="m3Title">Product delivery</b>
+                  <span data-i18n="m3Sub">From prototype to production</span>
                 </div>
                 <div class="metric">
-                  <b data-i18n="m4Title">Launch ready</b>
-                  <span data-i18n="m4Sub">App Store review & operations</span>
+                  <b data-i18n="m4Title">End-to-end</b>
+                  <span data-i18n="m4Sub">Launch, operate and continuously improve</span>
                 </div>
               </div>
             </div>
@@ -509,31 +607,31 @@
       <div class="wrap">
         <h2 data-i18n="aboutTitle">About</h2>
         <p class="lead" data-i18n="aboutLead">
-          We reduce complexity and ship essential features. Solving real problems in document, content, and productivity workflows.
+          We are an AI-native software company with deep experience in LLM-powered development. We turn business problems into reliable products without being limited by a specific programming language, platform, or technology stack.
         </p>
 
         <div class="cards">
           <div class="card">
             <div class="tag">Mission</div>
-            <h3 data-i18n="missionTitle">Start small, improve big</h3>
+            <h3 data-i18n="missionTitle">Software beyond language barriers</h3>
             <p data-i18n="missionBody">
-              Validate early. Build core first, refine with feedback.
+              We use AI and LLMs to choose the right tools for each problem and deliver across technology stacks.
             </p>
           </div>
 
           <div class="card">
             <div class="tag">Principles</div>
-            <h3 data-i18n="principlesTitle">Simplicity · Speed · Trust</h3>
+            <h3 data-i18n="principlesTitle">AI-assisted · Human-accountable</h3>
             <p data-i18n="principlesBody">
-              Intuitive UX, fast performance, minimal data.
+              AI accelerates the work; our engineers remain accountable for architecture, quality, security, and results.
             </p>
           </div>
 
           <div class="card">
             <div class="tag">Focus</div>
-            <h3 data-i18n="focusTitle">iOS utilities & workflows</h3>
+            <h3 data-i18n="focusTitle">Every kind of software</h3>
             <p data-i18n="focusBody">
-              OCR, PDF processing, media playback, automation tools.
+              Mobile, web, desktop, backend, AI agents, data systems, and workflow automation.
             </p>
           </div>
         </div>
@@ -544,13 +642,18 @@
       <div class="wrap">
         <h2 data-i18n="productsTitle">Products</h2>
         <p class="lead" data-i18n="productsLead">
-          We build products that solve real problems.
+          Our products show how we take ideas to launch across AI, mobile, documents, media, and productivity software.
         </p>
 
         <div class="cards">
           <a class="card" href="https://fivestaraicompany.github.io/ocrbook" target="_blank" rel="noopener">
-            <div class="tag">OCR · Documents</div>
-            <h3>OCRBook</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-ocrbook.png" width="68" height="68" alt="OCRBook app icon" />
+              <div>
+                <div class="tag">OCR · Documents</div>
+                <h3>OCRBook</h3>
+              </div>
+            </div>
             <p data-i18n="p1">
               OCR workflow for scanned documents: extract, search, summarize, TTS—privacy-forward with local processing.
             </p>
@@ -558,17 +661,27 @@
           </a>
 
           <a class="card" href="https://fivestaraicompany.github.io/1air" target="_blank" rel="noopener">
-            <div class="tag">Media</div>
-            <h3>1Air Player</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-1air.png" width="68" height="68" alt="1Air Player app icon" />
+              <div>
+                <div class="tag">Media</div>
+                <h3>1Air Player</h3>
+              </div>
+            </div>
             <p data-i18n="p2">
-              Fast, simple local video player. No ads. Deep iOS integration.
+              Fast, simple local media player with no ads and a smooth experience across mobile platforms.
             </p>
             <span class="visit"><span data-i18n="visitSite">Visit site</span> <span class="arrow" aria-hidden="true">→</span></span>
           </a>
 
           <a class="card" href="https://fivestaraicompany.github.io/myllama" target="_blank" rel="noopener">
-            <div class="tag">Local AI · Private chat</div>
-            <h3>MyLlama</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-myllama.png" width="68" height="68" alt="MyLlama app icon" />
+              <div>
+                <div class="tag">Local AI · Private chat</div>
+                <h3>MyLlama</h3>
+              </div>
+            </div>
             <p data-i18n="p4">
               Software that integrates with local AI to enable distributed processing and private conversations.
             </p>
@@ -576,8 +689,13 @@
           </a>
 
           <a class="card" href="https://fivestaraicompany.github.io/screenshotmaker" target="_blank" rel="noopener">
-            <div class="tag">App Store · Localization</div>
-            <h3>Screenshot (App) Maker</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-screenshotmaker.png" width="68" height="68" alt="Screenshot Maker app icon" />
+              <div>
+                <div class="tag">App Store · Localization</div>
+                <h3>Screenshot (App) Maker</h3>
+              </div>
+            </div>
             <p data-i18n="p5">
               Make App Store screenshots easy to translate and localize across languages for submission.
             </p>
@@ -585,8 +703,13 @@
           </a>
 
           <a class="card" href="https://fivestaraicompany.github.io/gganbu" target="_blank" rel="noopener">
-            <div class="tag">Bluetooth · Chat</div>
-            <h3>Gganbu</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-gganbu.png" width="68" height="68" alt="Gganbu app icon" />
+              <div>
+                <div class="tag">Bluetooth · Chat</div>
+                <h3>Gganbu</h3>
+              </div>
+            </div>
             <p data-i18n="p6">
               Consent-based nearby chat over Bluetooth with optional local AI translation. No account, no central chat server.
             </p>
@@ -594,8 +717,13 @@
           </a>
 
           <a class="card" href="https://fivestaraicompany.github.io/passpang" target="_blank" rel="noopener">
-            <div class="tag">Wallet · Location</div>
-            <h3>PassPang</h3>
+            <div class="productHead">
+              <img class="appIcon" src="assets/product-passpang.png" width="68" height="68" alt="PassPang app icon" />
+              <div>
+                <div class="tag">Wallet · Location</div>
+                <h3>PassPang</h3>
+              </div>
+            </div>
             <p data-i18n="p7">
               Location-aware pass manager. Surfaces the right coupon or membership card the moment you arrive.
             </p>
@@ -603,10 +731,10 @@
           </a>
 
           <div class="card">
-            <div class="tag">Studio</div>
-            <h3 data-i18n="p3Title">Custom development</h3>
+            <div class="tag">Company</div>
+            <h3 data-i18n="p3Title">Custom software development</h3>
             <p data-i18n="p3">
-              Internal tools to App Store products. Swift/SwiftUI based.
+              From internal systems and web services to mobile, desktop, and AI products. We choose the best language and stack for each problem.
             </p>
           </div>
         </div>
@@ -616,21 +744,21 @@
             <div class="tag">What we build</div>
             <h3 data-i18n="buildTitle">What we build</h3>
             <ul class="list">
-              <li data-i18n="b1">OCR / PDF / document processing</li>
-              <li data-i18n="b2">Local AI & workflow automation</li>
-              <li data-i18n="b3">Media playback & audio handling</li>
-              <li data-i18n="b4">Performance optimization</li>
+              <li data-i18n="b1">LLM applications &amp; AI agents</li>
+              <li data-i18n="b2">Mobile, web &amp; desktop products</li>
+              <li data-i18n="b3">Backend, APIs &amp; cloud systems</li>
+              <li data-i18n="b4">Workflow automation &amp; data processing</li>
             </ul>
           </div>
 
           <div class="card">
             <div class="tag">Quality</div>
-            <h3 data-i18n="qualityTitle">Quality</h3>
+            <h3 data-i18n="qualityTitle">How we ensure quality</h3>
             <ul class="list">
-              <li data-i18n="q1">App Store review & privacy</li>
-              <li data-i18n="q2">Crash tracking & issue management</li>
-              <li data-i18n="q3">Offline/low-power support</li>
-              <li data-i18n="q4">Maintainable architecture</li>
+              <li data-i18n="q1">Architecture, security &amp; privacy</li>
+              <li data-i18n="q2">Automated testing &amp; code review</li>
+              <li data-i18n="q3">Performance, reliability &amp; observability</li>
+              <li data-i18n="q4">Long-term maintenance &amp; improvement</li>
             </ul>
           </div>
         </div>
@@ -641,29 +769,29 @@
       <div class="wrap">
         <h2 data-i18n="servicesTitle">Services</h2>
         <p class="lead" data-i18n="servicesLead">
-          Clear problem definition accelerates delivery.
+          LLM-accelerated engineering turns a clearly defined problem into working software faster.
         </p>
 
         <div class="cards">
           <div class="card">
             <div class="tag">01</div>
-            <h3 data-i18n="s1Title">Define</h3>
+            <h3 data-i18n="s1Title">Discover</h3>
             <p data-i18n="s1Body">
-              Align on goals, metrics, constraints.
+              Define the business goal, users, constraints, and the right technical approach.
             </p>
           </div>
           <div class="card">
             <div class="tag">02</div>
             <h3 data-i18n="s2Title">Build</h3>
             <p data-i18n="s2Body">
-              Ship MVP, validate with real usage.
+              Use LLM-assisted engineering to design, implement, test, and iterate across platforms.
             </p>
           </div>
           <div class="card">
             <div class="tag">03</div>
-            <h3 data-i18n="s3Title">Launch</h3>
+            <h3 data-i18n="s3Title">Launch &amp; grow</h3>
             <p data-i18n="s3Body">
-              Polish & prepare for release.
+              Deploy, monitor, operate, and continuously improve the product.
             </p>
           </div>
         </div>
@@ -672,46 +800,17 @@
 
     <section class="section" id="contact">
       <div class="wrap">
-        <h2 data-i18n="contactTitle">Contact</h2>
-        <p class="lead" data-i18n="contactLead">
-          Copy the template below for faster replies.
-        </p>
-
-        <div class="split">
-          <div class="card">
-            <div class="tag">Contact</div>
-            <h3 data-i18n="contactHowTitle">How to reach us</h3>
-            <ul class="list">
-              <li><span data-i18n="emailLabel">Email</span>: <b>fivestaraicompany@gmail.com</b></li>
-              <!-- <li><span data-i18n="siteLabel">Web</span>: <b></b></li> -->
-            </ul>
-            <div class="cta">
-              <a class="btn primary" href="mailto:fivestaraicompany@gmail.com?subject=FiveStar%20AI%20Project%20Inquiry" data-i18n="emailBtn">Send email</a>
-              <button class="btn" id="copyBtn" data-i18n="copyBtn">Copy template</button>
-            </div>
-            <div class="small" id="copyHint" style="margin-top:10px;"></div>
+        <div class="contactPanel">
+          <div>
+            <div class="tag">FiveStar AI</div>
+            <h2 data-i18n="contactHowTitle">Start a project</h2>
+            <p class="lead" data-i18n="contactLead">
+              Tell us what you want to build. We will suggest a practical path from idea to launch.
+            </p>
           </div>
-
-          <div class="card">
-            <div class="tag">Template</div>
-            <h3 data-i18n="tplTitle">Inquiry template</h3>
-            <pre id="template" style="margin:10px 0 0; padding:12px; border-radius:16px; border:1px solid var(--line); background:#f6f8fc; color:var(--muted); overflow:auto; white-space:pre-wrap; line-height:1.55; font-size:13px;">[Project Overview]
-- What problem are you solving?:
-- Success metrics (e.g., DAU, processing speed, cost):
-- Target platform (iOS/iPadOS/macOS):
-
-[Core Features]
-- 1)
-- 2)
-- 3)
-
-[Timeline/Budget]
-- Preferred timeline:
-- Budget range:
-
-[References]
-- Mockups/reference links:
-- Existing code/docs:</pre>
+          <div class="contactActions">
+            <a class="btn primary" href="mailto:fivestaraicompany@gmail.com?subject=FiveStar%20AI%20Project%20Inquiry" data-i18n="emailBtn">Discuss your project</a>
+            <a class="contactEmail" href="mailto:fivestaraicompany@gmail.com">fivestaraicompany@gmail.com</a>
           </div>
         </div>
       </div>
@@ -726,13 +825,12 @@
             <img class="logo" src="fivestar-ai-logo.webp" width="30" height="30" alt="" style="width:30px;height:30px;border-radius:9px" />
             <b>FiveStar AI</b>
           </div>
-          <div class="small" data-i18n="footerLine1">A product-focused software studio</div>
+          <div class="small" data-i18n="footerLine1">An AI-native software company</div>
           <div class="small" data-i18n="footerLine2">© <span id="year"></span> FiveStar AI. All rights reserved.</div>
-          <div class="small" data-i18n="footerContact">Contact: anton@fivestaraicorp.com</div>
+          <div class="small" data-i18n="footerContact">Contact: fivestaraicompany@gmail.com</div>
         </div>
         <div class="small" style="text-align:right;">
           <div><a href="#about" data-i18n="navAbout">About</a> · <a href="#products" data-i18n="navProducts">Products</a> · <a href="#services" data-i18n="navServices">Services</a> · <a href="#contact" data-i18n="navContact">Contact</a></div>
-          <div style="margin-top:8px;" data-i18n="footerNote">Single-file deployment (index.html).</div>
         </div>
       </div>
     </div>
@@ -1005,21 +1103,6 @@
 
     // Initialize
     initI18n();
-
-    // ---- copy template ----
-    $("#copyBtn").addEventListener("click", async () => {
-      const text = $("#template").textContent;
-      try {
-        await navigator.clipboard.writeText(text);
-        $("#copyHint").textContent = (document.documentElement.lang === "en")
-          ? "Copied to clipboard."
-          : "클립보드에 복사되었습니다.";
-      } catch (e) {
-        $("#copyHint").textContent = (document.documentElement.lang === "en")
-          ? "Copy failed. Please select and copy manually."
-          : "복사에 실패했습니다. 텍스트를 선택해 수동으로 복사해 주세요.";
-      }
-    });
 
     // Smooth scroll for anchor links
     $$('a[href^="#"]').forEach(a => {
