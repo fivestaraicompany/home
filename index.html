@@ -138,24 +138,21 @@
     .langOption{
       display:flex;
       align-items:center;
+      width:100%;
       padding:10px 12px;
+      border:0;
       border-radius:12px;
+      background:transparent;
       cursor:pointer;
       color:var(--text);
+      font-family:inherit;
       font-size:14px;
       font-weight:600;
+      text-align:left;
       transition:background .2s;
     }
     .langOption:hover{background:rgba(15,23,42,.05)}
     .langOption.active{background:rgba(109,74,255,.10); color:var(--accent)}
-    .langOption code{
-      display:inline-block;
-      min-width:60px;
-      font-size:11px;
-      font-weight:700;
-      color:var(--muted2);
-      margin-right:10px;
-    }
     .pill{
       display:inline-flex; align-items:center; gap:8px;
       padding:8px 13px;
@@ -464,20 +461,17 @@
         display:flex; gap:10px; padding:8px 12px;
       }
       .langDropdown{
-        right:auto;
-        left:0;
+        right:0;
+        left:auto;
         max-width:calc(100vw - 40px);
       }
       .langOption{
         font-size:13px;
       }
-      .langOption code{
-        min-width:50px;
-        font-size:10px;
-      }
     }
     @media (max-width: 560px){
       .brand > .logo{width:38px; height:38px}
+      .nav > div > .btn.primary{display:none}
       .langBtn{min-width:auto; padding:10px 12px}
       .hero{padding-top:22px}
       .heroGrid{padding:28px 22px;border-radius:26px}
@@ -501,12 +495,12 @@
   <header class="topbar">
     <div class="wrap">
       <div class="nav">
-        <a class="brand" href="#top" aria-label="FiveStar AI 홈">
+        <a class="brand" href="#top" aria-label="FiveStar AI home" data-i18n-aria-label="brandHomeLabel">
           <img class="logo" src="fivestar-ai-logo.webp" width="42" height="42" alt="" />
           <span>FiveStar AI</span>
         </a>
 
-        <nav class="navlinks" aria-label="Main menu">
+        <nav class="navlinks" aria-label="Main menu" data-i18n-aria-label="mainMenuLabel">
           <a href="#about" data-i18n="navAbout">About</a>
           <a href="#products" data-i18n="navProducts">Products</a>
           <a href="#services" data-i18n="navServices">Services</a>
@@ -514,10 +508,10 @@
         </nav>
 
         <div style="display:flex; gap:10px; align-items:center;">
-          <button class="btn menuBtn" id="menuBtn" aria-label="Open mobile menu">☰</button>
+          <button class="btn menuBtn" id="menuBtn" aria-label="Open menu" data-i18n-aria-label="openMenuLabel">☰</button>
           <div class="langSelect">
-            <button class="langBtn" id="langBtn" aria-label="Change language">
-              🌐 <span id="langLabel">EN</span> ▼
+            <button class="langBtn" id="langBtn" type="button" aria-label="Change language" data-i18n-aria-label="changeLanguageLabel" aria-haspopup="listbox" aria-expanded="false">
+              <span aria-hidden="true">🌐</span> <span id="langLabel">English</span> <span aria-hidden="true">▾</span>
             </button>
             <div class="langDropdown" id="langDropdown" role="listbox"></div>
           </div>
@@ -525,7 +519,7 @@
         </div>
       </div>
 
-      <div class="mobileMenu" id="mobileMenu" aria-label="Mobile menu">
+      <div class="mobileMenu" id="mobileMenu" aria-label="Main menu" data-i18n-aria-label="mainMenuLabel">
         <a href="#about" data-i18n="navAbout">About</a>
         <a href="#products" data-i18n="navProducts">Products</a>
         <a href="#services" data-i18n="navServices">Services</a>
@@ -556,19 +550,19 @@
               <a class="btn" href="#contact" data-i18n="ctaContact">Contact</a>
             </div>
 
-            <div class="badgeRow" aria-label="Keywords">
-              <span class="badge">AI · LLM · Agents</span>
-              <span class="badge">Mobile · Web · Desktop</span>
-              <span class="badge">Backend · Cloud · Automation</span>
-              <span class="badge">Any language · Best-fit stack</span>
+            <div class="badgeRow" aria-label="Key capabilities" data-i18n-aria-label="keywordsLabel">
+              <span class="badge" data-i18n="badgeAi">AI · LLM · Agents</span>
+              <span class="badge" data-i18n="badgePlatforms">Mobile · Web · Desktop</span>
+              <span class="badge" data-i18n="badgeBackend">Backend · Cloud · Automation</span>
+              <span class="badge" data-i18n="badgeStack">Any language · Best-fit stack</span>
             </div>
           </div>
 
-          <aside class="heroCard" aria-label="Summary card">
+          <aside class="heroCard" aria-label="Company strengths summary" data-i18n-aria-label="summaryLabel">
             <div class="heroCardInner">
               <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; align-items:flex-start;">
                 <div>
-                  <div class="tag" style="margin-bottom:10px;">FiveStar AI / Company</div>
+                  <div class="tag" style="margin-bottom:10px;" data-i18n="companyTag">FiveStar AI / Company</div>
                   <div style="font-weight:800; font-size:16px; letter-spacing:-.2px;" data-i18n="rightTitle">Core strengths</div>
                   <div class="small" style="margin-top:6px;" data-i18n="rightSub">
                     Discovery → Development → Operations
@@ -612,7 +606,7 @@
 
         <div class="cards">
           <div class="card">
-            <div class="tag">Mission</div>
+            <div class="tag" data-i18n="missionTag">Mission</div>
             <h3 data-i18n="missionTitle">Software beyond language barriers</h3>
             <p data-i18n="missionBody">
               We use AI and LLMs to choose the right tools for each problem and deliver across technology stacks.
@@ -620,7 +614,7 @@
           </div>
 
           <div class="card">
-            <div class="tag">Principles</div>
+            <div class="tag" data-i18n="principlesTag">Principles</div>
             <h3 data-i18n="principlesTitle">AI-assisted · Human-accountable</h3>
             <p data-i18n="principlesBody">
               AI accelerates the work; our engineers remain accountable for architecture, quality, security, and results.
@@ -628,7 +622,7 @@
           </div>
 
           <div class="card">
-            <div class="tag">Focus</div>
+            <div class="tag" data-i18n="focusTag">Focus</div>
             <h3 data-i18n="focusTitle">Every kind of software</h3>
             <p data-i18n="focusBody">
               Mobile, web, desktop, backend, AI agents, data systems, and workflow automation.
@@ -648,9 +642,9 @@
         <div class="cards">
           <a class="card" href="https://fivestaraicompany.github.io/ocrbook" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-ocrbook.png" width="68" height="68" alt="OCRBook app icon" />
+              <img class="appIcon" src="assets/product-ocrbook.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">OCR · Documents</div>
+                <div class="tag" data-i18n="ocrTag">OCR · Documents</div>
                 <h3>OCRBook</h3>
               </div>
             </div>
@@ -662,9 +656,9 @@
 
           <a class="card" href="https://fivestaraicompany.github.io/1air" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-1air.png" width="68" height="68" alt="1Air Player app icon" />
+              <img class="appIcon" src="assets/product-1air.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">Media</div>
+                <div class="tag" data-i18n="mediaTag">Media</div>
                 <h3>1Air Player</h3>
               </div>
             </div>
@@ -676,9 +670,9 @@
 
           <a class="card" href="https://fivestaraicompany.github.io/myllama" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-myllama.png" width="68" height="68" alt="MyLlama app icon" />
+              <img class="appIcon" src="assets/product-myllama.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">Local AI · Private chat</div>
+                <div class="tag" data-i18n="localAiTag">Local AI · Private chat</div>
                 <h3>MyLlama</h3>
               </div>
             </div>
@@ -690,9 +684,9 @@
 
           <a class="card" href="https://fivestaraicompany.github.io/screenshotmaker" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-screenshotmaker.png" width="68" height="68" alt="Screenshot Maker app icon" />
+              <img class="appIcon" src="assets/product-screenshotmaker.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">App Store · Localization</div>
+                <div class="tag" data-i18n="localizationTag">App Store · Localization</div>
                 <h3>Screenshot (App) Maker</h3>
               </div>
             </div>
@@ -704,9 +698,9 @@
 
           <a class="card" href="https://fivestaraicompany.github.io/gganbu" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-gganbu.png" width="68" height="68" alt="Gganbu app icon" />
+              <img class="appIcon" src="assets/product-gganbu.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">Bluetooth · Chat</div>
+                <div class="tag" data-i18n="bluetoothTag">Bluetooth · Chat</div>
                 <h3>Gganbu</h3>
               </div>
             </div>
@@ -718,9 +712,9 @@
 
           <a class="card" href="https://fivestaraicompany.github.io/passpang" target="_blank" rel="noopener">
             <div class="productHead">
-              <img class="appIcon" src="assets/product-passpang.png" width="68" height="68" alt="PassPang app icon" />
+              <img class="appIcon" src="assets/product-passpang.png" width="68" height="68" alt="" />
               <div>
-                <div class="tag">Wallet · Location</div>
+                <div class="tag" data-i18n="walletTag">Wallet · Location</div>
                 <h3>PassPang</h3>
               </div>
             </div>
@@ -731,7 +725,7 @@
           </a>
 
           <div class="card">
-            <div class="tag">Company</div>
+            <div class="tag" data-i18n="customTag">Company</div>
             <h3 data-i18n="p3Title">Custom software development</h3>
             <p data-i18n="p3">
               From internal systems and web services to mobile, desktop, and AI products. We choose the best language and stack for each problem.
@@ -741,7 +735,7 @@
 
         <div class="split">
           <div class="card">
-            <div class="tag">What we build</div>
+            <div class="tag" data-i18n="buildTag">What we build</div>
             <h3 data-i18n="buildTitle">What we build</h3>
             <ul class="list">
               <li data-i18n="b1">LLM applications &amp; AI agents</li>
@@ -752,7 +746,7 @@
           </div>
 
           <div class="card">
-            <div class="tag">Quality</div>
+            <div class="tag" data-i18n="qualityTag">Quality</div>
             <h3 data-i18n="qualityTitle">How we ensure quality</h3>
             <ul class="list">
               <li data-i18n="q1">Architecture, security &amp; privacy</li>
@@ -852,25 +846,26 @@
         const open = mobileMenu.style.display === "block";
         mobileMenu.style.display = open ? "none" : "block";
         menuBtn.textContent = open ? "☰" : "✕";
+        const dict = i18n[currentLang] || i18n.en;
+        const labelKey = open ? "openMenuLabel" : "closeMenuLabel";
+        menuBtn.setAttribute("data-i18n-aria-label", labelKey);
+        menuBtn.setAttribute("aria-label", dict?.[labelKey] || "Menu");
       });
     }
     // close menu on click
     $$("#mobileMenu a").forEach(a => a.addEventListener("click", () => {
       mobileMenu.style.display = "none";
-      if (menuBtn) menuBtn.textContent = "☰";
+      if (menuBtn) {
+        menuBtn.textContent = "☰";
+        menuBtn.setAttribute("data-i18n-aria-label", "openMenuLabel");
+        const dict = i18n[currentLang] || i18n.en;
+        menuBtn.setAttribute("aria-label", dict?.openMenuLabel || "Open menu");
+      }
     }));
 
     // ---- i18n (Multi-language support) ----
-    const SUPPORTED_LANGUAGES = [
-      "uk", "en", "ar", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da", "nl",
-      "fi", "fr", "de", "el", "fr-CA", "he", "hi", "hu", "id", "it", "ja",
-      "ko", "ms", "nb", "pl", "pt-BR", "pt-PT", "ro", "ru", "sk", "es-MX",
-      "es", "sv", "th", "tr", "vi", "af", "am", "az", "be", "bg", "bn", "bs",
-      "es-US", "et", "fa", "fil", "gu", "ha", "hy", "ig", "ka", "kk", "kn",
-      "ln", "lt", "lv", "mk", "ml", "mn", "mr", "my", "ne", "om", "or", "pa",
-      "pcm", "rw", "si", "sl", "so", "sq", "sr", "st", "sw", "ta", "te",
-      "ti", "ts", "ur", "yo", "zh-HK", "zu"
-    ];
+    // Only locales whose complete homepage copy has passed review are selectable.
+    const SUPPORTED_LANGUAGES = ["en", "ko", "ja"];
 
     const LANGUAGE_NAMES = {
       "uk": "Українська",
@@ -983,14 +978,16 @@
       if (!dropdown) return;
 
       SUPPORTED_LANGUAGES.forEach(lang => {
-        const option = document.createElement("div");
+        const option = document.createElement("button");
+        option.type = "button";
         option.className = "langOption";
         option.setAttribute("role", "option");
         option.setAttribute("data-lang", lang);
-        option.innerHTML = `<code>${lang}</code>${LANGUAGE_NAMES[lang] || lang}`;
+        option.textContent = LANGUAGE_NAMES[lang] || lang;
         option.addEventListener("click", () => {
           selectLanguage(lang);
           dropdown.classList.remove("show");
+          langBtn?.setAttribute("aria-expanded", "false");
         });
         dropdown.appendChild(option);
       });
@@ -1038,12 +1035,27 @@
         }
       });
 
+      $$('[data-i18n-aria-label]').forEach(el => {
+        const key = el.getAttribute("data-i18n-aria-label");
+        if (dict[key]) el.setAttribute("aria-label", dict[key]);
+      });
+
       const langLabel = $("#langLabel");
       if (langLabel) {
-        langLabel.textContent = lang.toUpperCase();
+        langLabel.textContent = LANGUAGE_NAMES[lang] || lang;
       }
+
+      document.title = `FiveStar AI — ${dict.footerLine1}`;
+      [
+        'meta[name="description"]',
+        'meta[property="og:description"]',
+        'meta[name="twitter:description"]'
+      ].forEach(selector => {
+        document.querySelector(selector)?.setAttribute("content", dict.heroSub);
+      });
       
       document.documentElement.lang = lang;
+      document.documentElement.dir = "ltr";
       localStorage.setItem("fivestarai_lang", lang);
     }
 
@@ -1053,8 +1065,10 @@
         const lang = opt.getAttribute("data-lang");
         if (lang === currentLang) {
           opt.classList.add("active");
+          opt.setAttribute("aria-selected", "true");
         } else {
           opt.classList.remove("active");
+          opt.setAttribute("aria-selected", "false");
         }
       });
     }
@@ -1091,12 +1105,22 @@
       langBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         langDropdown.classList.toggle("show");
+        langBtn.setAttribute("aria-expanded", String(langDropdown.classList.contains("show")));
       });
 
       // Close dropdown when clicking outside
       document.addEventListener("click", (e) => {
         if (!langBtn.contains(e.target) && !langDropdown.contains(e.target)) {
           langDropdown.classList.remove("show");
+          langBtn.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          langDropdown.classList.remove("show");
+          langBtn.setAttribute("aria-expanded", "false");
+          langBtn.focus();
         }
       });
     }
