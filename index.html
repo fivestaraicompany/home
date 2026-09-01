@@ -864,8 +864,17 @@
     }));
 
     // ---- i18n (Multi-language support) ----
-    // Only locales whose complete homepage copy has passed review are selectable.
-    const SUPPORTED_LANGUAGES = ["en", "ko", "ja"];
+    const SUPPORTED_LANGUAGES = [
+      "uk", "en", "ar", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da", "nl",
+      "fi", "fr", "de", "el", "fr-CA", "he", "hi", "hu", "id", "it", "ja",
+      "ko", "ms", "nb", "pl", "pt-BR", "pt-PT", "ro", "ru", "sk", "es-MX",
+      "es", "sv", "th", "tr", "vi", "af", "am", "az", "be", "bg", "bn", "bs",
+      "es-US", "et", "fa", "fil", "gu", "ha", "hy", "ig", "ka", "kk", "kn",
+      "ln", "lt", "lv", "mk", "ml", "mn", "mr", "my", "ne", "om", "or", "pa",
+      "pcm", "rw", "si", "sl", "so", "sq", "sr", "st", "sw", "ta", "te",
+      "ti", "ts", "ur", "yo", "zh-HK", "zu"
+    ];
+    const RTL_LANGUAGES = new Set(["ar", "fa", "he", "ur"]);
 
     const LANGUAGE_NAMES = {
       "uk": "Українська",
@@ -1055,7 +1064,7 @@
       });
       
       document.documentElement.lang = lang;
-      document.documentElement.dir = "ltr";
+      document.documentElement.dir = RTL_LANGUAGES.has(lang) ? "rtl" : "ltr";
       localStorage.setItem("fivestarai_lang", lang);
     }
 
